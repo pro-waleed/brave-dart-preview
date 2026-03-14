@@ -4,7 +4,7 @@ const products = [
   {
     name: "دفتر تزيين يومي",
     description:
-      "دفتر مرتب وأنيق يساعد الأم على التخلص من هم تزيين الدفاتر كل يوم مع مظهر يفتح النفس للدراسة.",
+      "دفتر مرتب وأنيق يساعد على تنظيم المذاكرة اليومية ويمنح الحصص والواجبات شكلاً أجمل.",
     price: "1000 ريال يمني",
     tag: "الأكثر طلباً",
     visual: "linear-gradient(180deg, #f7fbfb 0%, #cde3df 100%)",
@@ -13,7 +13,7 @@ const products = [
   {
     name: "دفتر الطفل المتألق",
     description:
-      "تصميم تحفيزي موجه للأطفال، مستوحى من رسالة الحساب حول تشجيع الطفل على النجاح والدراسة بحماس.",
+      "تصميم تحفيزي موجه للأطفال يشجعهم على الدراسة ويجعل الدفتر جزءاً محبباً من يومهم.",
     price: "1500 ريال يمني",
     tag: "للأطفال",
     visual: "linear-gradient(180deg, #ffd2bf 0%, #ef7b4d 100%)",
@@ -22,7 +22,7 @@ const products = [
   {
     name: "دفتر متابعة المذاكرة",
     description:
-      "نسخة عملية لتنظيم المواد والمراجعة والمتابعة المنزلية بأسلوب أنيق وهادئ.",
+      "نسخة عملية لتنظيم المواد والمراجعة والمتابعة المنزلية بأسلوب هادئ وأنيق.",
     price: "1800 ريال يمني",
     tag: "للتنظيم",
     visual: "linear-gradient(180deg, #8fc0bb 0%, #1c6668 100%)",
@@ -31,7 +31,7 @@ const products = [
   {
     name: "دفتر هدية أنيق",
     description:
-      "دفتر بتفاصيل أجمل للتقديم كهدية أو طلب خاص مع إمكانية إضافة عبارة قصيرة حسب المناسبة.",
+      "دفتر بتفاصيل أنيقة مناسب للهدايا والطلبات الخاصة مع إمكانية إضافة عبارة قصيرة حسب المناسبة.",
     price: "2200 ريال يمني",
     tag: "للهدايا",
     visual: "linear-gradient(180deg, #f3e7dc 0%, #d9b28e 100%)",
@@ -90,6 +90,7 @@ if (orderForm) {
     const selectedIndex = Number(document.querySelector("#product-select").value);
     const quantity = document.querySelector("#quantity").value.trim();
     const notes = document.querySelector("#notes").value.trim();
+    const paymentMethod = document.querySelector("#payment-method").value;
     const product = products[selectedIndex];
 
     const message = [
@@ -98,6 +99,7 @@ if (orderForm) {
       `المنتج: ${product.name}`,
       `السعر: ${product.price}`,
       `الكمية: ${quantity}`,
+      `طريقة الدفع: ${paymentMethod}`,
       `ملاحظات: ${notes || "لا توجد"}`,
     ].join("\n");
 

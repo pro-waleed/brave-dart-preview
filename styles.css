@@ -292,6 +292,7 @@ textarea {
 
 .trust-strip,
 .campaigns,
+.payment-section,
 .feature-section,
 .order-section {
   margin-top: 36px;
@@ -436,6 +437,31 @@ textarea {
   gap: 18px;
 }
 
+.payment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.payment-card {
+  padding: 22px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(244, 249, 248, 0.8));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.payment-card h3 {
+  margin: 0 0 10px;
+}
+
+.payment-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
 .campaign-card {
   padding: 14px;
   border-radius: 32px;
@@ -566,7 +592,8 @@ textarea {
   }
 
   .product-grid,
-  .feature-grid {
+  .feature-grid,
+  .payment-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -620,7 +647,8 @@ textarea {
 
   .product-grid,
   .feature-grid,
-  .campaign-grid {
+  .campaign-grid,
+  .payment-grid {
     grid-template-columns: 1fr;
   }
 

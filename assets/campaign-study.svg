@@ -1,0 +1,19 @@
+<svg width="800" height="920" viewBox="0 0 800 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="920" rx="40" fill="#FDFCF9"/>
+  <circle cx="708" cy="75" r="112" fill="#8CC7C2"/>
+  <path d="M0 251C63 210 117 196 167 199C235 203 286 239 360 247C451 258 530 230 800 33" stroke="#F19A7A" stroke-width="2"/>
+  <path d="M0 270C0 270 0 195 0 155C66 155 120 101 120 35" stroke="#F07A4D" stroke-width="24"/>
+  <path d="M596 920C596 793 692 709 800 709V920H596Z" fill="#6CA6A2"/>
+  <g opacity="0.18" fill="#EAD6C8">
+    <ellipse cx="145" cy="769" rx="12" ry="8"/>
+    <ellipse cx="188" cy="790" rx="16" ry="10"/>
+    <ellipse cx="233" cy="820" rx="12" ry="9"/>
+    <ellipse cx="286" cy="784" rx="11" ry="8"/>
+    <ellipse cx="350" cy="835" rx="13" ry="9"/>
+  </g>
+  <text x="400" y="290" text-anchor="middle" fill="#1C6668" font-family="Arial, sans-serif" font-size="42" font-weight="700">BRAVE DART</text>
+  <text x="570" y="485" text-anchor="end" fill="#1C6668" font-family="Arial, sans-serif" font-size="58" font-weight="700">تبحثين عن حل</text>
+  <text x="570" y="562" text-anchor="end" fill="#F07A4D" font-family="Arial, sans-serif" font-size="58" font-weight="700">يريحك</text>
+  <text x="570" y="639" text-anchor="end" fill="#1C6668" font-family="Arial, sans-serif" font-size="58" font-weight="700">من هم تزيين الدفاتر</text>
+  <text x="570" y="716" text-anchor="end" fill="#F07A4D" font-family="Arial, sans-serif" font-size="58" font-weight="700">كل يوم؟</text>
+</svg>

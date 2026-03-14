@@ -1,0 +1,18 @@
+<svg width="800" height="920" viewBox="0 0 800 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="400" y1="0" x2="400" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5ECE2"/>
+      <stop offset="1" stop-color="#E1D3C2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="920" rx="40" fill="url(#bg)"/>
+  <circle cx="184" cy="302" r="124" fill="#D7C4B3"/>
+  <circle cx="504" cy="296" r="154" fill="#F6E8DB"/>
+  <ellipse cx="500" cy="534" rx="180" ry="240" fill="#F2E4D8"/>
+  <ellipse cx="262" cy="610" rx="148" ry="176" fill="#42352F"/>
+  <path d="M129 698C161 621 225 578 305 578C403 578 466 651 497 767H129V698Z" fill="#436E73"/>
+  <path d="M0 744H800V920H0V744Z" fill="#ED764A"/>
+  <rect y="744" width="800" height="94" fill="#ED764A" fill-opacity="0.8"/>
+  <text x="400" y="837" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="54" font-weight="700">وراء كل طفل ناجح أم عظيمة</text>
+  <text x="96" y="92" fill="#1C6668" font-family="Arial, sans-serif" font-size="44" font-weight="700">BD</text>
+</svg>

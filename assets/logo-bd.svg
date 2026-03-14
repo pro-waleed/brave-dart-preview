@@ -1,0 +1,11 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="180" rx="28" fill="white"/>
+  <path d="M58 52H122C140.778 52 156 67.2223 156 86C156 104.778 140.778 120 122 120H58V52Z" fill="#1C6668"/>
+  <path d="M84 76H122C127.523 76 132 80.4772 132 86C132 91.5228 127.523 96 122 96H84V76Z" fill="white"/>
+  <rect x="58" y="52" width="24" height="68" fill="white"/>
+  <path d="M165 52H226C252.51 52 274 73.4903 274 100C274 126.51 252.51 148 226 148H165V52Z" fill="#1C6668"/>
+  <path d="M190" fill="#1C6668"/>
+  <path d="M191 76H223C236.255 76 247 86.7452 247 100C247 113.255 236.255 124 223 124H191V76Z" fill="white"/>
+  <rect x="165" y="52" width="24" height="96" fill="white"/>
+  <text x="160" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" letter-spacing="10" fill="#1C6668">BRAVE DART</text>
+</svg>
